@@ -3,10 +3,10 @@ name: Build and Push Node.js App Docker Image
 on:
   push:
     branches:
-      - main  # Trigger on commits to the main branch
+      - master  # Trigger on commits to the main branch
   pull_request:
     branches:
-      - main  # Trigger on pull requests to the main branch
+      - master  # Trigger on pull requests to the main branch
 
 jobs:
   build_and_push:
